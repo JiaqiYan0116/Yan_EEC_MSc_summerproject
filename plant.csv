@@ -1,0 +1,61 @@
+Plot,Animals,Farmlet,Location,quadrat,PerennialRyegrass,CreepingBent,YorkshireFog,DandelionAgg,Broad-leavesDock,WhiteClover,CreepingButtercup,CreepingThistle,Mouse-earChickweed,CommonNettle,Cuckooflower,CruelThistle,SoftRushes,BareGround
+Burrows,Cattle,Green,Edge,E1,0.35,0.6,,,,,,,,,,,,0.05
+Burrows,Cattle,Green,Edge,E2,0.6,0.4,,,,,,,,,,,,
+Burrows,Cattle,Green,Edge,E3,0.15,0.3,0.15,0.02,,,0.33,,,,,,,0.05
+Burrows,Cattle,Green,Edge,E4,0.15,0.65,,,,,,,,,,,,0.2
+Burrows,Cattle,Green,Edge,E5,0.25,0.42,0.2,,,,,,,,,,,0.3
+Burrows,Cattle,Green,Inner,M1,0.2,0.15,0.6,,,,,,,,,,,0.05
+Burrows,Cattle,Green,Inner,M2,0.35,0.6,,,,,,,,,,,,0.05
+Burrows,Cattle,Green,Inner,M3,0.05,0.4,0.35,,,,,,,,,,,0.2
+Burrows,Cattle,Green,Inner,M4,0.4,0.6,,,,,,,,,,,,
+Burrows,Cattle,Green,Inner,M5,0.4,0.5,,,,,,,,,,,,0.1
+Golden Rove,Sheep,Green,Edge,E1,0.3,0.1,0.6,,,,,,,,,,,0.05
+Golden Rove,Sheep,Green,Edge,E2,0.3,0.5,0.2,,,,,,,,,,,
+Golden Rove,Sheep,Green,Edge,E3,0.03,0.7,,,,,,,,,,,,0.15
+Golden Rove,Sheep,Green,Edge,E4,0.3,0.65,0.05,,,,,,,,,,,
+Golden Rove,Sheep,Green,Edge,E5,0.4,0.2,0.4,,,,,,,,,,,
+Golden Rove,Sheep,Green,Inner,M1,0.5,0.35,0.15,,,,,,,,,,,0.1
+Golden Rove,Sheep,Green,Inner,M2,0.3,0.7,,,,,,,,,,,,
+Golden Rove,Sheep,Green,Inner,M3,0.2,0.5,0.3,,,,,,,,,,,
+Golden Rove,Sheep,Green,Inner,M4,0.6,0.4,,,,,,,,,,,,0.05
+Golden Rove,Sheep,Green,Inner,M5,0.7,0.3,,,,,,,,,,,,0.05
+Dairy South,Cattle,Blue,Edge,E1,0.25,0.2,0.1,0.02,0.3,0.08,,,,,,,,
+Dairy South,Cattle,Blue,Edge,E2,,0.05,0.2,,0.25,,,0.5,,,,,,
+Dairy South,Cattle,Blue,Edge,E3,0.15,0.1,0.2,,,,0.4,,,,,,,0.27
+Dairy South,Cattle,Blue,Edge,E4,0.2,0.7,,0.03,0.05,,,0.02,,,,,,
+Dairy South,Cattle,Blue,Edge,E5,0.6,0.35,,,0.05,,,,,,,,,
+Dairy South,Cattle,Blue,Inner,M1,0.15,0.5,,,,0.25,,,,,,,,
+Dairy South,Cattle,Blue,Inner,M2,0.4,0.4,0.13,0.02,0.05,,,,,,,,,
+Dairy South,Cattle,Blue,Inner,M3,0.1,0.15,0.5,,0.25,,,,,,,,,
+Dairy South,Cattle,Blue,Inner,M4,0.03,0.02,0.6,,0.1,0.2,,,,,,,,
+Dairy South,Cattle,Blue,Inner,M5,0.25,,0.3,,0.1,0.3,,,,,,,,
+Lower Wyke Moor,Sheep,Blue,Edge,E1,0.15,0.1,0.05,,,0.05,0.1,,0.05,,,,0.5,
+Lower Wyke Moor,Sheep,Blue,Edge,E2,0.25,0.1,0.5,,,,0.15,,,,,,,
+Lower Wyke Moor,Sheep,Blue,Edge,E3,0.18,0.6,,0.1,,,0.1,,0.02,,,,,
+Lower Wyke Moor,Sheep,Blue,Edge,E4,0.15,0.6,0.05,,,,,,,0.05,,,,0.15
+Lower Wyke Moor,Sheep,Blue,Edge,E5,0.1,0.4,,,,,0.2,,,,,,,0.3
+Lower Wyke Moor,Sheep,Blue,Inner,M1,0.3,0.7,,,,,,,,,,,,
+Lower Wyke Moor,Sheep,Blue,Inner,M2,0.15,0.7,0.15,,,,,,,,,,,
+Lower Wyke Moor,Sheep,Blue,Inner,M3,0.1,0.5,0.4,,,,,,,,,,,
+Lower Wyke Moor,Sheep,Blue,Inner,M4,0.8,0.2,,,,,,,,,,,,
+Lower Wyke Moor,Sheep,Blue,Inner,M5,0.3,0.5,,,,,,,,0.2,,,,
+Dairy North,Sheep,Green,Edge,E1,,,1,,,,,,,,,,,
+Dairy North,Sheep,Green,Edge,E2,,0.06,0.9,,,,,,,,0.04,,,
+Dairy North,Sheep,Green,Edge,E3,0.1,,0.4,,,,,,,,,0.5,,
+Dairy North,Sheep,Green,Edge,E4,0.3,0.2,0.1,,,,,,,,,0.4,,
+Dairy North,Sheep,Green,Edge,E5,0.2,,0.8,,,,,,,,,,,
+Dairy North,Sheep,Green,Inner,M1,0.35,0.1,0.15,,,,,,,0.4,,,,
+Dairy North,Sheep,Green,Inner,M2,0.1,0.15,0.75,,,,,,,,,,,
+Dairy North,Sheep,Green,Inner,M3,,0.2,0.8,,,,,,,,,,,
+Dairy North,Sheep,Green,Inner,M4,0.25,0.05,0.4,,,,,,,0.3,,,,
+Dairy North,Sheep,Green,Inner,M5,0.15,0.05,0.8,,,,,,,,,,,
+Dairy Corner,Sheep,Blue,Edge,E1,0.4,,0.6,,,,,,,,,,,
+Dairy Corner,Sheep,Blue,Edge,E2,0.2,0.6,0.2,,,,,,,,,,,
+Dairy Corner,Sheep,Blue,Edge,E3,0.2,0.6,0.15,,,,,,,,0.05,,,
+Dairy Corner,Sheep,Blue,Edge,E4,0.1,0.35,0.5,,,,0.05,,,,,,,
+Dairy Corner,Sheep,Blue,Edge,E5,0.2,0.3,0.5,,,,,,,,,,,
+Dairy Corner,Sheep,Blue,Inner,M1,0.1,0.7,0.2,,,,,,,,,,,
+Dairy Corner,Sheep,Blue,Inner,M2,0.25,0.7,,,0.05,,,,,,,,,
+Dairy Corner,Sheep,Blue,Inner,M3,0.1,0.5,0.35,,,,0.05,,,,,,,
+Dairy Corner,Sheep,Blue,Inner,M4,0.5,0.25,0.2,,,,0.05,,,,,,,
+Dairy Corner,Sheep,Blue,Inner,M5,0.15,0.6,0.25,,,,,,,,,,,

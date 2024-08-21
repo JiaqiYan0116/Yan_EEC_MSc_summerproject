@@ -1,0 +1,280 @@
+---
+title: "NW_plant"
+author: "yan"
+date: "2024-06-23"
+output: word_document
+---
+
+```{r}
+# prepare the workspace
+rm(list = ls())
+setwd("D:/NW")
+# load the package
+library(vegan)
+library(ggplot2)
+library(ggeffects)
+library(dplyr)
+library(tidyr)
+library(betapart)
+library(lme4)
+library(sjPlot)
+library(lmerTest)
+```
+
+```{r}
+## Community composition
+#load the data
+data <- read.csv("D:/NW/plant.csv")
+data <- data %>%
+  mutate(across(everything(), ~ifelse(is.na(.), 0.00001, .)))
+# Extract species data
+species_data <- data %>% select(PerennialRyegrass:BareGround)
+# Hellinger transfer and data grouping
+species_data_hellinger <- decostand(species_data, method = "hellinger")
+grouping_data <- data %>% select(Plot, Farmlet, Location)
+final_data <- cbind(grouping_data, species_data_hellinger)
+
+# NMDS analysis to explore the community composition
+nmds_result <- metaMDS(species_data_hellinger, distance = "bray", k = 2, trymax = 100)
+nmds_scores <- as.data.frame(scores(nmds_result, display = "sites"))
+nmds_scores$Farmlet <- final_data$Farmlet
+nmds_scores$Location <- final_data$Location
+# visualization
+ggplot(nmds_scores, aes(x = NMDS1, y = NMDS2, color = Farmlet, shape = Location)) +
+  geom_point(size = 3) +
+  labs(x = "NMDS1", y = "NMDS2") + theme(plot.title = element_text(hjust = 0.5))+
+  theme_minimal() 
+
+# Adonis analysis to test the grouping by PREANOVA
+adonis_result <- adonis2(species_data_hellinger ~ Farmlet + Location, data = final_data, method = "bray", permutations = 999)
+print(adonis_result)
+
+# betadisper analysis by farmlet colours
+grouping_farmlet <- as.factor(final_data$Farmlet)
+beta_farmlet <- betadisper(vegdist(species_data_hellinger), grouping_farmlet)
+permutest(beta_farmlet)
+plot(beta_farmlet )
+# betadisper analysis by locations
+grouping_location <- as.factor(final_data$Location)
+beta_location <- betadisper(vegdist(species_data_hellinger), grouping_location)
+permutest(beta_location)
+plot(beta_location)
+```
+
+```{r}
+## TBI analyses
+# Calculate Taxonamic Biodiversity Indices for each quadrat
+data[, 5:ncol(data)] <- lapply(data[, 5:ncol(data)], function(x) {
+  x <- as.numeric(as.character(x)) 
+  x[is.na(x)] <- 0.00001            
+  return(x)
+})
+data$Richness <- rowSums(species_data > 0.00001)
+data$Shannon <- diversity(species_data, index ="shannon")
+data$Simpson <- diversity(species_data, index = "simpson")
+data <- data %>% mutate(Evenness = ifelse(Richness > 1, Shannon / log(Richness), NA))
+write.csv(data, file = "TBI_data.csv", row.names = FALSE)
+
+# fit linear mixed models for TBI
+Shannon_model <- lmer(Shannon ~ Farmlet+Location + (1|Plot), data = data)
+summary(Shannon_model)
+plot(Shannon_model)
+hist(resid(Shannon_model))
+qqnorm(resid(Shannon_model))
+qqline(resid(Shannon_model))
+
+Simpson_model <- lmer(Simpson ~ Farmlet+Location + (1|Plot), data = data)
+summary(Simpson_model)
+plot(Simpson_model)
+hist(resid(Simpson_model))
+qqnorm(resid(Simpson_model))
+qqline(resid(Simpson_model))
+
+Richness_model <- glmer.nb(Richness ~ Farmlet+Location + (1|Plot), data = data)
+summary(Richness_model)
+plot(Richness_model)
+hist(resid(Richness_model))
+qqnorm(resid(Richness_model))
+qqline(resid(Richness_model))
+
+Evenness_model <- lmer(Evenness ~ Farmlet+Location + (1|Plot), data = data)
+data$Evenness <- ifelse(is.na(data$Evenness), 0.001, data$Evenness)
+summary(Evenness_model)
+plot(Evenness_model)
+hist(resid(Evenness_model))
+qqnorm(resid(Evenness_model))
+qqline(resid(Evenness_model))
+
+# use sjplot to make a summary table for TBI models
+# calculate CI
+confint(Shannon_model)
+confint(Simpson_model)
+confint(Richness_model, method = "boot", nsim = 500)
+confint(Evenness_model)
+tab_model(Shannon_model, Simpson_model, Richness_model, Evenness_model, 
+          show.ci = TRUE, 
+          show.se = TRUE, 
+          show.p = TRUE, 
+          dv.labels = c("Shannon", "Simpson", "Richness", "Evenness"),
+          digits = 4,
+          file = "TBI_summary.html")
+```
+
+```{r}
+## functonal traits analyses
+# calculate the community-weighted mean of LMDC and SLA for each quadrat
+data_f <- read.csv("D:/NW/functional.csv")
+result <- data_f %>%
+  group_by(Plot,quadrat) %>%
+  summarise(cl_sum = sum(CL), cs_sum = sum(CS))
+write.csv(result, file = "CWM.csv", row.names = FALSE)
+#load and transform the data
+data_r <- read.csv("D:/NW/RPM.csv")
+data_r <- data_r %>% mutate(RPM = as.numeric(RPM),cl = as.numeric(cl),cs = as.numeric(cs))
+
+# fitting LMMs to find the relationship of CWM
+cs_model <- lmer(cs ~ Location+Farmlet+(1|Plot), data = data_r)
+summary(cs_model)
+plot(cs_model)
+hist(resid(cs_model))
+qqnorm(resid(cs_model))
+qqline(resid(cs_model))
+
+cl_model <- lmer(cl ~ Location+Farmlet+(1|Plot), data = data_r)
+summary(cl_model)
+anova(cl_model)
+plot(cs_model)
+hist(resid(cl_model))
+qqnorm(resid(cl_model))
+qqline(resid(cl_model))
+
+# summary table for CWM & LOC
+confint(cl_model)
+confint(cs_model)
+tab_model(cs_model, cl_model, 
+          show.ci = TRUE, 
+          show.se = TRUE, 
+          show.p = TRUE, 
+          dv.labels = c("CWM(SLA)", "CWM(LDMC)"),
+          digits = 4,
+          file = "CWM_LOC.html")
+```
+
+```{r}
+## fitting LMM to find the relationship of RPM
+rpm_model <- lmer(RPM ~ Location+Farmlet +(1|Plot), data = data_r) 
+summary(rpm_model)
+anova(rpm_model)
+plot(rpm_model)
+hist(resid(rpm_model))
+qqnorm(resid(rpm_model))
+qqline(resid(rpm_model))
+
+# visualize the significant relationship between RPM and Location
+ggplot(data_r, aes(x = Location, y = RPM)) +
+  geom_point(position = position_jitter(width = 0.2, height = 0), alpha = 0.5) +
+  stat_summary(fun = mean, geom = "point", shape = 18, size = 5, color = "red") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2, color = "red") +
+  labs(y = "Aboveground Biomass (Rising Plate Meter) (kg/ha)") +  
+  theme_minimal()
+
+## find the possible reason for the variation of RPM
+# use plant functional traits to explain 
+rpm_cl <- lmer(RPM ~ cl+(1|Plot), data = data_r)
+summary(rpm_cl)
+plot(rpm_cl)
+hist(resid(rpm_cl))
+qqnorm(resid(rpm_cl))
+qqline(resid(rpm_cl))
+
+rpm_cs <- lmer(RPM ~ cs+(1|Plot), data = data_r)
+summary(rpm_cs)
+plot(rpm_cs)
+hist(resid(rpm_cs))
+qqnorm(resid(rpm_cs))
+qqline(resid(rpm_cs))
+
+# introduce soil properties to explain 
+rpm_bulk <- lmer(RPM ~ scale(bulk)+(1|Plot), data = data_r)
+summary(rpm_bulk)
+anova(rpm_bulk)
+plot(rpm_bulk)
+hist(resid(rpm_bulk))
+qqnorm(resid(rpm_bulk))
+qqline(resid(rpm_bulk))
+
+rpm_som <- lmer(RPM ~ scale(som)+(1|Plot), data = data_r)
+summary(rpm_som)
+anova(rpm_som)
+plot(rpm_som)
+hist(resid(rpm_som))
+qqnorm(resid(rpm_som))
+qqline(resid(rpm_som))
+# plots for rpm and soil
+data_r$z.bulk <- scale(data_r$bulk)[,1]
+data_r$z.som <- scale(data_r$som)[,1]
+rpm_bulk <- lmer(RPM ~ z.bulk+(1|Plot), data = data_r)
+rpm_som <- lmer(RPM ~ z.som+(1|Plot), data = data_r)
+
+plot_bulk <- plot(ggpredict(rpm_bulk, terms="z.bulk"), add.data=TRUE)+  
+  labs(x = "z-standerdised BD", y = "Aboveground Biomass (Rising Plate Meter) (kg/ha)") + ggtitle(NULL) + 
+  theme_minimal()
+plot_som <- plot(ggpredict(rpm_som, terms="z.som"), add.data=TRUE)+  
+  labs(x = "z-standerdised SOM", y = "Aboveground Biomass (Rising Plate Meter) (kg/ha)") + ggtitle(NULL) + 
+  theme_minimal()
+gridExtra::grid.arrange(plot_bulk,plot_som, ncol = 2)
+# summary table for RPM & soil
+confint(rpm_som)
+confint(rpm_bulk)
+tab_model(rpm_bulk, rpm_som, 
+          show.ci = TRUE, 
+          show.se = TRUE, 
+          show.p = TRUE, 
+          dv.labels = c("BULK", "SOM"),
+          digits = 4,
+          file = "rpm_soil.html")
+
+# fit LMM for soil and location
+bulk_model <- lmer(bulk~ Location+Farmlet +(1|Plot), data = data_r)
+summary(bulk_model)
+anova(bulk_model)
+plot(bulk_model)
+hist(resid(bulk_model))
+qqnorm(resid(bulk_model))
+qqline(resid(bulk_model))
+
+som_model <- lmer(som ~ Location+Farmlet +(1|Plot), data = data_r)
+summary(som_model)
+anova(som_model)
+plot(som_model)
+hist(resid(som_model))
+qqnorm(resid(som_model))
+qqline(resid(som_model))
+
+# plots for soil and location
+plot_som <- ggplot(data_r, aes(x = Location, y = som)) +
+  geom_point(position = position_jitter(width = 0.2, height = 0), alpha = 0.5) +
+  stat_summary(fun = mean, geom = "point", shape = 18, size = 5, color = "red") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2, color = "red") +
+  labs(y = "Soil Organic Matter (%)") +  
+  theme_minimal()
+
+plot_bulk <- ggplot(data_r, aes(x = Location, y = som)) +
+  geom_point(position = position_jitter(width = 0.2, height = 0), alpha = 0.5) +
+  stat_summary(fun = mean, geom = "point", shape = 18, size = 5, color = "red") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2, color = "red") +
+  labs(y = "Bulk Density (g/cm^3)") +  
+  theme_minimal()
+gridExtra::grid.arrange(plot_bulk,plot_som, ncol = 2)
+
+# summary table for soil & location
+confint(som_model)
+confint(bulk_model)
+tab_model(bulk_model, som_model, 
+          show.ci = TRUE, 
+          show.se = TRUE, 
+          show.p = TRUE, 
+          dv.labels = c("BULK", "SOM"),
+          digits = 4,
+          file = "soil_loc.html")
+```

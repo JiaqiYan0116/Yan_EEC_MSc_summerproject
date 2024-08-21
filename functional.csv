@@ -1,0 +1,193 @@
+Plot,Animals,Farmlet,Location,quadrat,Common Name,Species,Coverage,LeavesNumber,Area,FreshWeight,DryWeight,LDMC,SLA,CL,CS
+Burrows,Cattle,Green,Edge,E1,Perennial Ryegrass,Lolium perenne,0.35,7,35.845,0.85,0.16,0.1882,224.0313,0.06587,78.410955
+Burrows,Cattle,Green,Edge,E1,Creeping Bent,Agrostis stolonifera,0.6,10,23.759,0.31,0.06,0.1935,395.9833,0.1161,237.58998
+Burrows,Cattle,Green,Edge,E2,Perennial Ryegrass,Lolium perenne,0.6,8,44.107,1.3,0.25,0.1923,176.428,0.11538,105.8568
+Burrows,Cattle,Green,Edge,E2,Creeping Bent,Agrostis stolonifera,0.4,10,29.178,0.38,0.08,0.2105,364.725,0.0842,145.89
+Burrows,Cattle,Green,Edge,E3,Perennial Ryegrass,Lolium perenne,0.15,6,20.555,0.67,0.11,0.1642,186.8636,0.02463,28.02954
+Burrows,Cattle,Green,Edge,E3,Creeping Bent,Agrostis stolonifera,0.3,5,8.526,0.1,0.02,0.2,426.3,0.06,127.89
+Burrows,Cattle,Green,Edge,E3,Yorkshire fog,Agrostis stolonifera,0.15,6,18.378,0.21,0.06,0.2857,306.3,0.042855,45.945
+Burrows,Cattle,Green,Edge,E3,Dandelion Agg,Taraxacum officinale agg,0.02,1,18.774,0.44,0.05,0.1136,375.48,0.002272,7.5096
+Burrows,Cattle,Green,Edge,E3,Creeping Buttercup,Ranunculus repens,0.33,14,40.154,1.05,0.18,0.1714,223.0778,0.056562,73.615674
+Burrows,Cattle,Green,Edge,E4,Perennial Ryegrass,Lolium perenne,0.15,5,38.682,1.09,0.15,0.1376,257.88,0.02064,38.682
+Burrows,Cattle,Green,Edge,E4,Creeping Bent,Agrostis stolonifera,0.65,8,28.483,0.42,0.08,0.1905,356.0375,0.123825,231.424375
+Burrows,Cattle,Green,Edge,E5,Perennial Ryegrass,Lolium perenne,0.25,5,17.209,0.67,0.13,0.194,132.3769,0.0485,33.094225
+Burrows,Cattle,Green,Edge,E5,Creeping Bent,Agrostis stolonifera,0.42,8,19.718,0.24,0.05,0.2083,394.36,0.087486,165.6312
+Burrows,Cattle,Green,Edge,E5,Yorkshire fog,Agrostis stolonifera,0.2,7,28.883,0.36,0.07,0.1944,412.6143,0.03888,82.52286
+Burrows,Cattle,Green,Inner,M1,Perennial Ryegrass,Lolium perenne,0.2,6,22.099,0.67,0.11,0.1642,200.9,0.03284,40.18
+Burrows,Cattle,Green,Inner,M1,Creeping Bent,Agrostis stolonifera,0.15,8,23.989,0.29,0.07,0.2414,342.7,0.03621,51.405
+Burrows,Cattle,Green,Inner,M1,Yorkshire fog,Agrostis stolonifera,0.6,9,36.206,0.43,0.09,0.2093,402.2889,0.12558,241.37334
+Burrows,Cattle,Green,Inner,M2,Perennial Ryegrass,Lolium perenne,0.35,10,49.578,1.55,0.31,0.2,159.929,0.07,55.97515
+Burrows,Cattle,Green,Inner,M2,Creeping Bent,Agrostis stolonifera,0.6,10,26.863,0.37,0.08,0.2162,335.7875,0.12972,201.4725
+Burrows,Cattle,Green,Inner,M3,Perennial Ryegrass,Lolium perenne,0.05,6,24.496,0.7,0.12,0.1714,204.1333,0.00857,10.206665
+Burrows,Cattle,Green,Inner,M3,Creeping Bent,Agrostis stolonifera,0.4,5,16.161,0.21,0.05,0.2381,323.22,0.09524,129.288
+Burrows,Cattle,Green,Inner,M3,Yorkshire fog,Agrostis stolonifera,0.35,5,27.618,0.36,0.06,0.1667,460.3,0.058345,161.105
+Burrows,Cattle,Green,Inner,M4,Perennial Ryegrass,Lolium perenne,0.4,5,18.077,0.46,0.09,0.1957,200.8556,0.07828,80.34224
+Burrows,Cattle,Green,Inner,M4,Creeping Bent,Agrostis stolonifera,0.6,6,13.247,0.16,0.04,0.25,331.175,0.15,198.705
+Burrows,Cattle,Green,Inner,M5,Perennial Ryegrass,Lolium perenne,0.4,8,30.676,0.88,0.19,0.2159,161.4526,0.08636,64.58104
+Burrows,Cattle,Green,Inner,M5,Creeping Bent,Agrostis stolonifera,0.5,10,29.168,0.39,0.08,0.2051,364.6,0.10255,182.3
+Golden Rove,Sheep,Green,Edge,E1,Yorkshire fog,Agrostis stolonifera,0.6,10,48.566,0.54,0.11,0.2037,441.5091,0.12222,264.90546
+Golden Rove,Sheep,Green,Edge,E1,Creeping Bent,Agrostis stolonifera,0.1,10,26.828,0.3,0.05,0.1667,536.56,0.01667,53.656
+Golden Rove,Sheep,Green,Edge,E1,Perennial Ryegrass,Lolium perenne,0.3,10,33.717,0.73,0.14,0.1918,240.8357,0.05754,72.25071
+Golden Rove,Sheep,Green,Edge,E2,Yorkshire fog,Agrostis stolonifera,0.2,10,51.936,0.58,0.13,0.2241,399.5077,0.04482,79.90154
+Golden Rove,Sheep,Green,Edge,E2,Creeping Bent,Agrostis stolonifera,0.5,10,31.242,0.39,0.1,0.2564,312.42,0.1282,156.21
+Golden Rove,Sheep,Green,Edge,E2,Perennial Ryegrass,Lolium perenne,0.3,10,47.938,0.9,0.17,0.1889,281.9882,0.05667,84.59646
+Golden Rove,Sheep,Green,Edge,E3,Creeping Bent,Agrostis stolonifera,0.7,10,56.641,0.59,0.12,0.2034,472.0083,0.14238,330.40581
+Golden Rove,Sheep,Green,Edge,E3,Perennial Ryegrass,Lolium perenne,0.03,10,30.221,0.38,0.07,0.1842,431.7286,0.005526,12.951858
+Golden Rove,Sheep,Green,Edge,E4,Yorkshire fog,Agrostis stolonifera,0.05,10,56.62,0.66,0.14,0.2121,404.4286,0.010605,20.22143
+Golden Rove,Sheep,Green,Edge,E4,Creeping Bent,Agrostis stolonifera,0.65,10,30.454,0.29,0.08,0.2759,380.675,0.179335,247.43875
+Golden Rove,Sheep,Green,Edge,E4,Perennial Ryegrass,Lolium perenne,0.3,10,51.216,1.1,0.27,0.2455,189.6889,0.07365,56.90667
+Golden Rove,Sheep,Green,Edge,E5,Yorkshire fog,Agrostis stolonifera,0.4,10,51.259,0.52,0.11,0.2115,465.9909,0.0846,186.39636
+Golden Rove,Sheep,Green,Edge,E5,Creeping Bent,Agrostis stolonifera,0.2,10,41.083,0.63,0.15,0.2381,273.8867,0.04762,54.77734
+Golden Rove,Sheep,Green,Edge,E5,Perennial Ryegrass,Lolium perenne,0.4,10,43.645,0.7,0.13,0.1857,335.7308,0.07428,134.29232
+Golden Rove,Sheep,Green,Inner,M1,Yorkshire fog,Agrostis stolonifera,0.15,10,52.118,0.72,0.15,0.2083,347.4533,0.031245,52.117995
+Golden Rove,Sheep,Green,Inner,M1,Creeping Bent,Agrostis stolonifera,0.35,10,29.138,0.36,0.06,0.1667,485.6333,0.058345,169.971655
+Golden Rove,Sheep,Green,Inner,M1,Perennial Ryegrass,Lolium perenne,0.5,10,71.81,1.22,0.25,0.2049,287.24,0.10245,143.62
+Golden Rove,Sheep,Green,Inner,M2,Creeping Bent,Agrostis stolonifera,0.7,10,38.274,0.44,0.11,0.25,347.9455,0.175,243.56185
+Golden Rove,Sheep,Green,Inner,M2,Perennial Ryegrass,Lolium perenne,0.3,10,67.544,1.12,0.25,0.2232,270.176,0.06696,81.0528
+Golden Rove,Sheep,Green,Inner,M3,Yorkshire fog,Agrostis stolonifera,0.3,10,42.957,0.62,0.16,0.2581,268.4813,0.07743,80.54439
+Golden Rove,Sheep,Green,Inner,M3,Creeping Bent,Agrostis stolonifera,0.5,10,30.567,0.31,0.07,0.2258,436.6714,0.1129,218.3357
+Golden Rove,Sheep,Green,Inner,M3,Perennial Ryegrass,Lolium perenne,0.2,10,36.097,0.95,0.24,0.2526,150.4042,0.05052,30.08084
+Golden Rove,Sheep,Green,Inner,M4,Creeping Bent,Agrostis stolonifera,0.4,10,43.815,0.42,0.13,0.3095,337.0385,0.1238,134.8154
+Golden Rove,Sheep,Green,Inner,M4,Perennial Ryegrass,Lolium perenne,0.6,10,64.229,2.05,0.52,0.2537,123.5173,0.15222,74.11038
+Golden Rove,Sheep,Green,Inner,M5,Creeping Bent,Agrostis stolonifera,0.3,10,37.345,0.38,0.1,0.2632,373.45,0.07896,112.035
+Golden Rove,Sheep,Green,Inner,M5,Perennial Ryegrass,Lolium perenne,0.7,10,75.884,1.32,0.26,0.197,291.8615,0.1379,204.30305
+Dairy South,Cattle,Blue,Edge,E1,Perennial Ryegrass,Lolium perenne,0.25,10,19.033,0.56,0.13,0.2321,146.4077,0.058025,36.601925
+Dairy South,Cattle,Blue,Edge,E1,Creeping Bent,Agrostis stolonifera,0.2,8,12.262,0.23,0.06,0.2609,204.3667,0.05218,40.87334
+Dairy South,Cattle,Blue,Edge,E1,Yorkshire fog,Agrostis stolonifera,0.1,4,6.21,0.12,0.02,0.1667,310.5,0.01667,31.05
+Dairy South,Cattle,Blue,Edge,E1,Broad-leaves Dock,Rumex obtusifolius,0.3,5,261.787,9.54,1.77,0.1855,147.9023,0.05565,44.37069
+Dairy South,Cattle,Blue,Edge,E1,Dandelion Agg,Taraxacum officinale agg,0.02,3,64.43,1.39,0.18,0.1295,357.9444,0.00259,7.158888
+Dairy South,Cattle,Blue,Edge,E1,White Clover,Trifolium repens,0.08,10,15.255,0.36,0.08,0.2222,190.6875,0.017776,15.255
+Dairy South,Cattle,Blue,Edge,E2,Creeping Bent,Agrostis stolonifera,0.05,9,26.31,0.34,0.08,0.2353,328.875,0.011765,16.44375
+Dairy South,Cattle,Blue,Edge,E2,Yorkshire fog,Agrostis stolonifera,0.2,11,70.089,0.87,0.19,0.2184,368.8895,0.04368,73.7779
+Dairy South,Cattle,Blue,Edge,E2,Broad-leaves Dock,Rumex obtusifolius,0.25,5,348.002,15.17,2.61,0.1721,133.3341,0.043025,33.333525
+Dairy South,Cattle,Blue,Edge,E2,Creeping Thistle,Cirsium arvense,0.5,10,174.759,7.82,1.06,0.1355,164.867,0.06775,82.4335
+Dairy South,Cattle,Blue,Edge,E3,Perennial Ryegrass,Lolium perenne,0.15,6,19.155,0.54,0.14,0.2593,136.8214,0.038895,20.52321
+Dairy South,Cattle,Blue,Edge,E3,Creeping Bent,Agrostis stolonifera,0.1,10,26.202,0.33,0.06,0.1818,436.7,0.01818,43.67
+Dairy South,Cattle,Blue,Edge,E3,Yorkshire fog,Agrostis stolonifera,0.2,9,37.926,0.51,0.13,0.2549,291.7385,0.05098,58.3477
+Dairy South,Cattle,Blue,Edge,E3,Creeping Buttercup,Ranunculus repens,0.4,15,65.715,1.39,0.25,0.1799,262.86,0.07196,105.144
+Dairy South,Cattle,Blue,Edge,E4,Perennial Ryegrass,Lolium perenne,0.2,8,24.265,0.55,0.12,0.2182,202.2083,0.04364,40.44166
+Dairy South,Cattle,Blue,Edge,E4,Creeping Bent,Agrostis stolonifera,0.7,9,35.695,0.38,0.08,0.2105,446.1875,0.14735,312.33125
+Dairy South,Cattle,Blue,Edge,E4,Broad-leaves Dock,Rumex obtusifolius,0.05,2,110.384,2.34,0.34,0.1453,324.6588,0.007265,16.23294
+Dairy South,Cattle,Blue,Edge,E4,Dandelion Agg,Taraxacum officinale agg,0.03,5,53.916,1.44,0.15,0.1042,359.44,0.003126,10.7832
+Dairy South,Cattle,Blue,Edge,E4,Creeping Thistle,Cirsium arvense,0.02,5,113.66,6.22,0.94,0.1511,120.9149,0.003022,2.418298
+Dairy South,Cattle,Blue,Edge,E5,Perennial Ryegrass,Lolium perenne,0.6,6,23.713,0.38,0.08,0.2105,296.4125,0.1263,177.8475
+Dairy South,Cattle,Blue,Edge,E5,Creeping Bent,Agrostis stolonifera,0.35,5,10.993,0.1,0.02,0.2,549.65,0.07,192.3775
+Dairy South,Cattle,Blue,Edge,E5,Broad-leaves Dock,Rumex obtusifolius,0.05,3,265.48,5.46,1.1,0.2015,241.3455,0.010075,12.067275
+Dairy South,Cattle,Blue,Inner,M1,White Clover,Trifolium repens,0.25,10,20.678,0.78,0.12,0.1538,172.3167,0.03845,43.079175
+Dairy South,Cattle,Blue,Inner,M1,Creeping Bent,Agrostis stolonifera,0.5,5,12.205,0.15,0.04,0.2667,305.125,0.13335,152.5625
+Dairy South,Cattle,Blue,Inner,M1,Perennial Ryegrass,Lolium perenne,0.15,6,22.095,0.49,0.13,0.2653,169.9615,0.039795,25.494225
+Dairy South,Cattle,Blue,Inner,M2,Dandelion Agg,Taraxacum officinale agg,0.02,3,134.061,1.94,0.21,0.1082,638.3857,0.002164,12.767714
+Dairy South,Cattle,Blue,Inner,M2,Creeping Bent,Agrostis stolonifera,0.4,10,21.81,0.27,0.07,0.2593,311.5714,0.10372,124.62856
+Dairy South,Cattle,Blue,Inner,M2,Yorkshire fog,Agrostis stolonifera,0.13,5,30.468,0.43,0.1,0.2326,304.68,0.030238,39.6084
+Dairy South,Cattle,Blue,Inner,M2,Perennial Ryegrass,Lolium perenne,0.4,10,28.118,0.66,0.14,0.2121,200.8429,0.08484,80.33716
+Dairy South,Cattle,Blue,Inner,M2,Broad-leaves Dock,Rumex obtusifolius,0.05,5,125.837,4.3,0.8,0.186,157.2963,0.0093,7.864815
+Dairy South,Cattle,Blue,Inner,M3,Perennial Ryegrass,Lolium perenne,0.1,5,16.586,0.17,0.03,0.1765,552.8667,0.01765,55.28667
+Dairy South,Cattle,Blue,Inner,M3,Yorkshire fog,Agrostis stolonifera,0.5,10,82.596,0.9,0.16,0.1778,516.225,0.0889,258.1125
+Dairy South,Cattle,Blue,Inner,M3,Broad-leaves Dock,Rumex obtusifolius,0.25,5,603.584,18.22,2.83,0.1553,213.2806,0.038825,53.32015
+Dairy South,Cattle,Blue,Inner,M3,Creeping Thistle,Cirsium arvense,0.15,8,276.916,17.99,2.7,0.1501,102.5615,0.022515,15.384225
+Dairy South,Cattle,Blue,Inner,M4,White Clover,Trifolium repens,0.2,10,58.996,1.23,0.21,0.1707,280.9333,0.03414,56.18666
+Dairy South,Cattle,Blue,Inner,M4,Yorkshire fog,Agrostis stolonifera,0.6,10,67.102,0.84,0.21,0.25,319.5333,0.15,191.71998
+Dairy South,Cattle,Blue,Inner,M4,Broad-leaves Dock,Rumex obtusifolius,0.1,7,449.082,11.16,2.13,0.1909,210.8366,0.01909,21.08366
+Dairy South,Cattle,Blue,Inner,M4,Perennial Ryegrass,Lolium perenne,0.03,3,12.011,0.28,0.05,0.1786,240.22,0.005358,7.2066
+Dairy South,Cattle,Blue,Inner,M4,Creeping Bent,Agrostis stolonifera,0.02,4,14.59,0.12,0.03,0.25,486.3333,0.005,9.726666
+Dairy South,Cattle,Blue,Inner,M5,Yorkshire fog,Agrostis stolonifera,0.3,7,24.329,0.3,0.08,0.2667,304.1125,0.08001,91.23375
+Dairy South,Cattle,Blue,Inner,M5,Broad-leaves Dock,Rumex obtusifolius,0.1,2,458.489,15.59,3.22,0.2065,142.3879,0.02065,14.23879
+Dairy South,Cattle,Blue,Inner,M5,White Clover,Trifolium repens,0.3,12,41.83,0.89,0.17,0.191,246.0588,0.0573,73.81764
+Dairy South,Cattle,Blue,Inner,M5,Perennial Ryegrass,Lolium perenne,0.25,5,12.795,0.29,0.08,0.2759,159.9375,0.068975,39.984375
+Lower Wyke Moor,Sheep,Blue,Edge,E1,Perennial Ryegrass,Lolium perenne,0.15,5,15.72,0.44,0.08,0.1818,196.5,0.027272727,29.475
+Lower Wyke Moor,Sheep,Blue,Edge,E1,Creeping Bent,Agrostis stolonifera,0.1,10,12.46,0.17,0.04,0.2353,311.5,0.023529412,31.15
+Lower Wyke Moor,Sheep,Blue,Edge,E1,Yorkshire fog,Agrostis stolonifera,0.05,10,32.31,0.39,0.1,0.2564,323.1,0.012820513,16.155
+Lower Wyke Moor,Sheep,Blue,Edge,E1,White Clover,Trifolium repens,0.05,6,9.84,0.11,0.04,0.3636,246,0.018181818,12.3
+Lower Wyke Moor,Sheep,Blue,Edge,E1,Mouse-ear Chickweed,Cerastium glomeratum,0.05,15,4.46,0.07,0.01,0.1429,446,0.007142857,22.3
+Lower Wyke Moor,Sheep,Blue,Edge,E1,Creeping Buttercup,Ranunculus repens,0.1,10,18.29,0.42,0.07,0.1667,261.2857,0.016666667,26.12857143
+Lower Wyke Moor,Sheep,Blue,Edge,E2,Perennial Ryegrass,Lolium perenne,0.25,9,27.98,0.72,0.18,0.25,155.4444,0.0625,38.86111111
+Lower Wyke Moor,Sheep,Blue,Edge,E2,Creeping Bent,Agrostis stolonifera,0.1,5,13.85,0.11,0.02,0.1818,692.5,0.018181818,69.25
+Lower Wyke Moor,Sheep,Blue,Edge,E2,Yorkshire fog,Agrostis stolonifera,0.5,10,26.57,0.29,0.07,0.2414,379.5714,0.120689655,189.7857143
+Lower Wyke Moor,Sheep,Blue,Edge,E2,Creeping Buttercup,Ranunculus repens,0.15,10,21.49,0.46,0.07,0.1522,307,0.022826087,46.05
+Lower Wyke Moor,Sheep,Blue,Edge,E3,Perennial Ryegrass,Lolium perenne,0.18,5,16.41,0.35,0.09,0.2571,182.3333,0.046285714,32.82
+Lower Wyke Moor,Sheep,Blue,Edge,E3,Creeping Bent,Agrostis stolonifera,0.6,10,15,0.16,0.04,0.25,375,0.15,225
+Lower Wyke Moor,Sheep,Blue,Edge,E3,Creeping Buttercup,Ranunculus repens,0.1,8,11.65,0.26,0.04,0.1538,291.25,0.015384615,29.125
+Lower Wyke Moor,Sheep,Blue,Edge,E3,Mouse-ear Chickweed,Cerastium glomeratum,0.02,7,3.71,0.08,0.01,0.125,371,0.0025,7.42
+Lower Wyke Moor,Sheep,Blue,Edge,E3,Dandelion Agg,Taraxacum officinale agg,0.1,6,67.24,1.83,0.23,0.1257,292.3478,0.012568306,29.23478261
+Lower Wyke Moor,Sheep,Blue,Edge,E4,Perennial Ryegrass,Lolium perenne,0.15,5,8.74,0.21,0.04,0.1905,218.5,0.028571429,32.775
+Lower Wyke Moor,Sheep,Blue,Edge,E4,Creeping Bent,Agrostis stolonifera,0.6,10,15.7,0.17,0.03,0.1765,523.3333,0.105882353,314
+Lower Wyke Moor,Sheep,Blue,Edge,E4,Yorkshire fog,Agrostis stolonifera,0.05,5,8.55,0.08,0.01,0.125,855,0.00625,42.75
+Lower Wyke Moor,Sheep,Blue,Edge,E4,Common Nettle,Urtica dioica,0.05,5,58.87,1.16,0.32,0.2759,183.9688,0.013793103,9.1984375
+Lower Wyke Moor,Sheep,Blue,Edge,E5,Perennial Ryegrass,Lolium perenne,0.1,5,13.78,0.16,0.04,0.25,344.5,0.025,34.45
+Lower Wyke Moor,Sheep,Blue,Edge,E5,Creeping Bent,Agrostis stolonifera,0.4,10,17.49,0.28,0.04,0.1429,437.25,0.057142857,174.9
+Lower Wyke Moor,Sheep,Blue,Edge,E5,Creeping Buttercup,Ranunculus repens,0.2,10,19.22,0.41,0.06,0.1463,320.3333,0.029268293,64.06666667
+Lower Wyke Moor,Sheep,Blue,Inner,M1,Perennial Ryegrass,Lolium perenne,0.3,8,19.9,0.44,0.08,0.1818,248.75,0.054545455,74.625
+Lower Wyke Moor,Sheep,Blue,Inner,M1,Creeping Bent,Agrostis stolonifera,0.7,10,21.1,0.24,0.06,0.25,351.6667,0.175,246.1666667
+Lower Wyke Moor,Sheep,Blue,Inner,M2,Perennial Ryegrass,Lolium perenne,0.15,5,17.22,0.42,0.09,0.2143,191.3333,0.032142857,28.7
+Lower Wyke Moor,Sheep,Blue,Inner,M2,Creeping Bent,Agrostis stolonifera,0.7,10,16.1,0.16,0.05,0.3125,322,0.21875,225.4
+Lower Wyke Moor,Sheep,Blue,Inner,M2,Yorkshire fog,Agrostis stolonifera,0.15,5,19.07,0.21,0.05,0.2381,381.4,0.035714286,57.21
+Lower Wyke Moor,Sheep,Blue,Inner,M3,Perennial Ryegrass,Lolium perenne,0.1,5,13.15,0.18,0.04,0.2222,328.75,0.022222222,32.875
+Lower Wyke Moor,Sheep,Blue,Inner,M3,Creeping Bent,Agrostis stolonifera,0.5,10,24.46,0.36,0.1,0.2778,244.6,0.138888889,122.3
+Lower Wyke Moor,Sheep,Blue,Inner,M3,Common Nettle,Urtica dioica,0.4,10,143.35,3.08,0.86,0.2792,166.686,0.111688312,66.6744186
+Lower Wyke Moor,Sheep,Blue,Inner,M4,Perennial Ryegrass,Lolium perenne,0.8,8,20.04,0.58,0.12,0.2069,167,0.165517241,133.6
+Lower Wyke Moor,Sheep,Blue,Inner,M4,Creeping Bent,Agrostis stolonifera,0.2,10,24.02,0.25,0.07,0.28,343.1429,0.056,68.62857143
+Lower Wyke Moor,Sheep,Blue,Inner,M5,Perennial Ryegrass,Lolium perenne,0.3,10,32.43,0.65,0.12,0.1846,270.25,0.055384615,81.075
+Lower Wyke Moor,Sheep,Blue,Inner,M5,Creeping Bent,Agrostis stolonifera,0.5,10,23.8,0.26,0.06,0.2308,396.6667,0.115384615,198.3333333
+Lower Wyke Moor,Sheep,Blue,Inner,M5,Common Nettle,Urtica dioica,0.2,10,219.7,5.55,1.82,0.3279,120.7143,0.065585586,24.14285714
+Dairy North,Sheep,Blue,Edge,E1,Yorkshire fog,Agrostis stolonifera,1,10,83.55,0.78,0.2,0.2564,417.75,0.256410256,417.75
+Dairy North,Sheep,Blue,Edge,E2,Creeping Bent,Agrostis stolonifera,0.06,9,48.27,0.49,0.12,0.2449,402.25,0.014693878,24.135
+Dairy North,Sheep,Blue,Edge,E2,Yorkshire fog,Agrostis stolonifera,0.9,10,62.93,0.76,0.2,0.2632,314.65,0.236842105,283.185
+Dairy North,Sheep,Blue,Edge,E2,Cuckooflower,Cardamine Pratensis,0.04,14,16.93,0.11,0.04,0.3636,423.25,0.014545455,16.93
+Dairy North,Sheep,Blue,Edge,E3,Perennial Ryegrass,Lolium perenne,0.1,10,39.04,0.42,0.08,0.1905,488,0.019047619,48.8
+Dairy North,Sheep,Blue,Edge,E3,Yorkshire fog,Agrostis stolonifera,0.4,10,69.27,0.58,0.14,0.2414,494.7857,0.096551724,197.9142857
+Dairy North,Sheep,Blue,Edge,E3,Cruel Thistle,Cirsium ferox,0.5,5,802.76,36.98,5.18,0.1401,154.973,0.070037858,77.48648649
+Dairy North,Sheep,Blue,Edge,E4,Perennial Ryegrass,Lolium perenne,0.3,10,41.53,0.74,0.14,0.1892,296.6429,0.056756757,88.99285714
+Dairy North,Sheep,Blue,Edge,E4,Creeping Bent,Agrostis stolonifera,0.2,10,45.45,0.37,0.06,0.1622,757.5,0.032432432,151.5
+Dairy North,Sheep,Blue,Edge,E4,Yorkshire fog,Agrostis stolonifera,0.1,10,69.48,0.74,0.13,0.1757,534.4615,0.017567568,53.44615385
+Dairy North,Sheep,Blue,Edge,E4,Cruel Thistle,Cirsium ferox,0.4,5,371.35,23.86,3.26,0.1366,113.911,0.054652137,45.56441718
+Dairy North,Sheep,Blue,Edge,E5,Perennial Ryegrass,Lolium perenne,0.2,10,41.48,0.8,0.17,0.2125,244,0.0425,48.8
+Dairy North,Sheep,Blue,Edge,E5,Yorkshire fog,Agrostis stolonifera,0.8,10,61.78,0.71,0.18,0.2535,343.2222,0.202816901,274.5777778
+Dairy North,Sheep,Blue,Inner,M1,Perennial Ryegrass,Lolium perenne,0.35,10,44.44,0.78,0.13,0.1667,341.8462,0.058333333,119.6461538
+Dairy North,Sheep,Blue,Inner,M1,Creeping Bent,Agrostis stolonifera,0.1,5,13.66,0.14,0.02,0.1429,683,0.014285714,68.3
+Dairy North,Sheep,Blue,Inner,M1,Yorkshire fog,Agrostis stolonifera,0.15,10,82.68,0.9,0.18,0.2,459.3333,0.03,68.9
+Dairy North,Sheep,Blue,Inner,M1,Common Nettle,Urtica dioica,0.4,10,309.99,6.63,1.87,0.2821,165.7701,0.112820513,66.30802139
+Dairy North,Sheep,Blue,Inner,M2,Perennial Ryegrass,Lolium perenne,0.1,5,21.42,0.18,0.05,0.2778,428.4,0.027777778,42.84
+Dairy North,Sheep,Blue,Inner,M2,Creeping Bent,Agrostis stolonifera,0.15,10,43.9,0.36,0.08,0.2222,548.75,0.033333333,82.3125
+Dairy North,Sheep,Blue,Inner,M2,Yorkshire fog,Agrostis stolonifera,0.75,9,65.59,0.7,0.17,0.2429,385.8235,0.182142857,289.3676471
+Dairy North,Sheep,Blue,Inner,M3,Creeping Bent,Agrostis stolonifera,0.2,10,35.94,0.39,0.06,0.1538,599,0.030769231,119.8
+Dairy North,Sheep,Blue,Inner,M3,Yorkshire fog,Agrostis stolonifera,0.8,10,75.55,0.72,0.14,0.1944,539.6429,0.155555556,431.7142857
+Dairy North,Sheep,Blue,Inner,M4,Perennial Ryegrass,Lolium perenne,0.25,10,45.21,0.65,0.12,0.1846,376.75,0.046153846,94.1875
+Dairy North,Sheep,Blue,Inner,M4,Creeping Bent,Agrostis stolonifera,0.05,5,15.73,0.09,0.01,0.111111111,1573,0.005555556,78.65
+Dairy North,Sheep,Blue,Inner,M4,Yorkshire fog,Agrostis stolonifera,0.4,10,86.1,1,0.2,0.2,430.5,0.08,172.2
+Dairy North,Sheep,Blue,Inner,M4,Common Nettle,Urtica dioica,0.3,10,251.31,4.39,1.16,0.2642,216.6466,0.079271071,64.99396552
+Dairy North,Sheep,Blue,Inner,M5,Perennial Ryegrass,Lolium perenne,0.15,10,50.83,0.76,0.14,0.1842,363.0714,0.027631579,54.46071429
+Dairy North,Sheep,Blue,Inner,M5,Creeping Bent,Agrostis stolonifera,0.05,5,26.48,0.19,0.04,0.2105,662,0.010526316,33.1
+Dairy North,Sheep,Blue,Inner,M5,Yorkshire fog,Agrostis stolonifera,0.8,9,73.83,0.61,0.14,0.2295,527.3571,0.183606557,421.8857143
+Dairy Corner,Sheep,Blue,Edge,E1,Perennial Ryegrass,Lolium perenne,0.4,10,74.072,0.63,0.14,0.2222,529.0857,0.08888,211.63428
+Dairy Corner,Sheep,Blue,Edge,E1,Yorkshire fog,Agrostis stolonifera,0.6,8,18.631,0.22,0.05,0.2273,372.62,0.13638,223.572
+Dairy Corner,Sheep,Blue,Edge,E2,Perennial Ryegrass,Lolium perenne,0.2,10,19.197,0.81,0.21,0.2593,91.4143,0.05186,18.28286
+Dairy Corner,Sheep,Blue,Edge,E2,Yorkshire fog,Agrostis stolonifera,0.2,10,36.265,0.35,0.09,0.2571,402.9444,0.05142,80.58888
+Dairy Corner,Sheep,Blue,Edge,E2,Creeping Bent,Agrostis stolonifera,0.6,10,27.629,0.2,0.09,0.45,306.9889,0.27,184.19334
+Dairy Corner,Sheep,Blue,Edge,E3,Perennial Ryegrass,Lolium perenne,0.2,10,29.243,0.9,0.26,0.2889,112.4731,0.05778,22.49462
+Dairy Corner,Sheep,Blue,Edge,E3,Yorkshire fog,Agrostis stolonifera,0.15,10,25.842,0.27,0.08,0.2963,323.025,0.044445,48.45375
+Dairy Corner,Sheep,Blue,Edge,E3,Creeping Bent,Agrostis stolonifera,0.6,10,20.191,0.15,0.07,0.4667,288.4429,0.28002,173.06574
+Dairy Corner,Sheep,Blue,Edge,E3,Cuckooflower,Cardamine Pratensis,0.05,15,6.255,0.07,0.01,0.1429,625.5,0.007145,31.275
+Dairy Corner,Sheep,Blue,Edge,E4,Perennial Ryegrass,Lolium perenne,0.1,5,17.085,0.42,0.1,0.2381,170.85,0.02381,17.085
+Dairy Corner,Sheep,Blue,Edge,E4,Yorkshire fog,Agrostis stolonifera,0.5,10,40.557,0.42,0.1,0.2381,405.57,0.11905,202.785
+Dairy Corner,Sheep,Blue,Edge,E4,Creeping Bent,Agrostis stolonifera,0.35,10,23.734,0.23,0.05,0.2174,474.68,0.07609,166.138
+Dairy Corner,Sheep,Blue,Edge,E4,Creeping Buttercup,Ranunculus repens,0.05,5,12.635,0.27,0.04,0.1481,315.875,0.007405,15.79375
+Dairy Corner,Sheep,Blue,Edge,E5,Perennial Ryegrass,Lolium perenne,0.2,10,27.786,0.61,0.15,0.2459,185.24,0.04918,37.048
+Dairy Corner,Sheep,Blue,Edge,E5,Yorkshire fog,Agrostis stolonifera,0.5,10,33.919,0.28,0.1,0.3571,339.19,0.17855,169.595
+Dairy Corner,Sheep,Blue,Edge,E5,Creeping Bent,Agrostis stolonifera,0.3,10,24.604,0.35,0.11,0.3143,223.6727,0.09429,67.10181
+Dairy Corner,Sheep,Blue,Inner,M1,Perennial Ryegrass,Lolium perenne,0.1,10,26.21,0.25,0.12,0.48,218.4167,0.048,21.84167
+Dairy Corner,Sheep,Blue,Inner,M1,Yorkshire fog,Agrostis stolonifera,0.2,10,42.122,0.47,0.12,0.2553,351.0167,0.05106,70.20334
+Dairy Corner,Sheep,Blue,Inner,M1,Creeping Bent,Agrostis stolonifera,0.7,10,21.498,0.25,0.07,0.28,307.1143,0.196,214.98001
+Dairy Corner,Sheep,Blue,Inner,M2,Perennial Ryegrass,Lolium perenne,0.25,9,40.165,0.87,0.21,0.2414,191.2619,0.06035,47.815475
+Dairy Corner,Sheep,Blue,Inner,M2,Creeping Bent,Agrostis stolonifera,0.7,10,41.603,0.43,0.15,0.3488,277.3533,0.24416,194.14731
+Dairy Corner,Sheep,Blue,Inner,M2,Broad-leaves Dock,Rumex obtusifolius,0.05,3,114.627,3.19,0.5,0.1567,229.254,0.007835,11.4627
+Dairy Corner,Sheep,Blue,Inner,M3,Perennial Ryegrass,Lolium perenne,0.1,8,22.522,0.44,0.16,0.3636,140.7625,0.03636,14.07625
+Dairy Corner,Sheep,Blue,Inner,M3,Yorkshire fog,Agrostis stolonifera,0.35,10,38.177,0.41,0.1,0.2439,381.77,0.085365,133.6195
+Dairy Corner,Sheep,Blue,Inner,M3,Creeping Bent,Agrostis stolonifera,0.5,10,25.742,0.15,0.08,0.5333,321.775,0.26665,160.8875
+Dairy Corner,Sheep,Blue,Inner,M3,Creeping Buttercup,Ranunculus repens,0.05,10,12.421,0.32,0.06,0.1875,207.0167,0.009375,10.350835
+Dairy Corner,Sheep,Blue,Inner,M4,Perennial Ryegrass,Lolium perenne,0.5,10,32.783,0.81,0.26,0.321,126.0885,0.1605,63.04425
+Dairy Corner,Sheep,Blue,Inner,M4,Yorkshire fog,Agrostis stolonifera,0.2,5,11.488,0.07,0.03,0.4286,382.9333,0.08572,76.58666
+Dairy Corner,Sheep,Blue,Inner,M4,Creeping Bent,Agrostis stolonifera,0.25,5,13.187,0.12,0.04,0.3333,329.675,0.083325,82.41875
+Dairy Corner,Sheep,Blue,Inner,M4,Creeping Buttercup,Ranunculus repens,0.05,10,26.649,0.43,0.09,0.2093,296.1,0.010465,14.805
+Dairy Corner,Sheep,Blue,Inner,M5,Perennial Ryegrass,Lolium perenne,0.15,10,27.737,0.64,0.18,0.2813,154.0944,0.042195,23.11416
+Dairy Corner,Sheep,Blue,Inner,M5,Yorkshire fog,Agrostis stolonifera,0.25,10,28.462,0.24,0.07,0.2917,406.6,0.072925,101.65
+Dairy Corner,Sheep,Blue,Inner,M5,Creeping Bent,Agrostis stolonifera,0.6,10,27.396,0.25,0.07,0.28,391.3714,0.168,234.82284

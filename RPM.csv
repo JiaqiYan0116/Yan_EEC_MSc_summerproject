@@ -1,0 +1,61 @@
+Plot,Animals,Farmlet,Location,quadrat,RPM,cl,cs,bulk,som
+Burrows,Cattle,Green,Edge,E1,3020,0.18197,316.000935,0.603,15.321
+Burrows,Cattle,Green,Edge,E2,2628,0.19958,251.7468,0.619,15.484
+Burrows,Cattle,Green,Edge,E3,1928,0.186319,282.989814,0.928,9.956
+Burrows,Cattle,Green,Edge,E4,1676,0.144465,270.106375,0.744,8.552
+Burrows,Cattle,Green,Edge,E5,1508,0.174866,281.248285,0.833,10.58
+Burrows,Cattle,Green,Inner,M1,3692,0.19463,332.95834,0.641,13.792
+Burrows,Cattle,Green,Inner,M2,2180,0.19972,257.44765,0.915,9.637
+Burrows,Cattle,Green,Inner,M3,2012,0.162155,300.599665,0.577,14.388
+Burrows,Cattle,Green,Inner,M4,2096,0.22828,279.04724,0.806,13.038
+Burrows,Cattle,Green,Inner,M5,3020,0.18891,246.88104,0.744,17.731
+Golden Rove,Sheep,Green,Edge,E1,3076,0.19643,390.81217,0.707,11.648
+Golden Rove,Sheep,Green,Edge,E2,3076,0.22969,320.708,1.007,10.068
+Golden Rove,Sheep,Green,Edge,E3,3580,0.147906,343.357668,0.972,9
+Golden Rove,Sheep,Green,Edge,E4,2712,0.26359,324.56685,0.923,12.524
+Golden Rove,Sheep,Green,Edge,E5,1704,0.2065,375.46602,0.836,11.787
+Golden Rove,Sheep,Green,Inner,M1,4000,0.19204,365.70965,0.701,12.754
+Golden Rove,Sheep,Green,Inner,M2,4784,0.24196,324.61465,0.671,14.343
+Golden Rove,Sheep,Green,Inner,M3,3356,0.24085,328.96093,0.789,11.617
+Golden Rove,Sheep,Green,Inner,M4,3048,0.27602,208.92578,0.716,10.853
+Golden Rove,Sheep,Green,Inner,M5,3748,0.21686,316.33805,0.91,8.424
+Dairy South,Cattle,Blue,Edge,E1,2964,0.202891,175.309843,0.607,14.685
+Dairy South,Cattle,Blue,Edge,E2,2740,0.16622,205.988675,0.854,11.704
+Dairy South,Cattle,Blue,Edge,E3,2460,0.180015,227.68491,0.719,15.852
+Dairy South,Cattle,Blue,Edge,E4,2796,0.204403,382.207348,0.739,12.031
+Dairy South,Cattle,Blue,Edge,E5,3020,0.206375,382.292275,0.733,11.106
+Dairy South,Cattle,Blue,Inner,M1,1900,0.211595,221.1359,0.712,10.32
+Dairy South,Cattle,Blue,Inner,M2,2936,0.230262,265.206649,0.777,14.012
+Dairy South,Cattle,Blue,Inner,M3,4252,0.16789,382.103545,0.68,12.758
+Dairy South,Cattle,Blue,Inner,M4,2040,0.213588,285.923566,0.742,11.041
+Dairy South,Cattle,Blue,Inner,M5,2124,0.226935,219.274555,0.713,12.536
+Lower Wyke Moor,Sheep,Blue,Edge,E1,1172,0.105613994,137.5085714,0.778,11.182
+Lower Wyke Moor,Sheep,Blue,Edge,E2,2040,0.22419756,343.9468254,0.726,11.19
+Lower Wyke Moor,Sheep,Blue,Edge,E3,1564,0.226738635,323.5997826,0.829,8.277
+Lower Wyke Moor,Sheep,Blue,Edge,E4,1144,0.154496885,398.7234375,0.965,8.112
+Lower Wyke Moor,Sheep,Blue,Edge,E5,1396,0.11141115,273.4166667,0.759,12.123
+Lower Wyke Moor,Sheep,Blue,Inner,M1,2124,0.229545455,320.7916667,0.616,11.595
+Lower Wyke Moor,Sheep,Blue,Inner,M2,2012,0.286607143,311.31,0.563,16.451
+Lower Wyke Moor,Sheep,Blue,Inner,M3,2124,0.272799423,221.8494186,0.679,11.959
+Lower Wyke Moor,Sheep,Blue,Inner,M4,2012,0.221517241,202.2285714,0.656,12.292
+Lower Wyke Moor,Sheep,Blue,Inner,M5,2012,0.236354816,303.5511904,0.649,13.431
+Dairy North,Sheep,Green,Edge,E1,1592,0.256410256,417.75,0.724,8.703
+Dairy North,Sheep,Green,Edge,E2,2264,0.266081438,324.25,0.708,9.852
+Dairy North,Sheep,Green,Edge,E3,2432,0.185637201,324.2007722,0.848,9.285
+Dairy North,Sheep,Green,Edge,E4,2180,0.161408894,339.5034282,0.737,10.857
+Dairy North,Sheep,Green,Edge,E5,2684,0.245316901,323.3777778,0.744,9.276
+Dairy North,Sheep,Green,Inner,M1,2152,0.21543956,323.1541752,0.75,10.744
+Dairy North,Sheep,Green,Inner,M2,2236,0.243253968,414.5201471,0.681,10.047
+Dairy North,Sheep,Green,Inner,M3,1648,0.186324787,551.5142857,0.648,10.53
+Dairy North,Sheep,Green,Inner,M4,1956,0.210980473,410.0314655,0.785,10.879
+Dairy North,Sheep,Green,Inner,M5,2040,0.221764452,509.4464286,0.75,9.743
+Dairy Corner,Sheep,Blue,Edge,E1,1508,0.22526,435.20628,0.848,14.494
+Dairy Corner,Sheep,Blue,Edge,E2,1620,0.37328,283.06508,0.861,9.858
+Dairy Corner,Sheep,Blue,Edge,E3,1827,0.38939,275.28911,0.86,10.248
+Dairy Corner,Sheep,Blue,Edge,E4,2096,0.226355,401.80175,0.759,12.652
+Dairy Corner,Sheep,Blue,Edge,E5,2656,0.32202,273.74481,0.921,10.681
+Dairy Corner,Sheep,Blue,Inner,M1,1564,0.29506,307.02502,0.822,12.506
+Dairy Corner,Sheep,Blue,Inner,M2,1928,0.312345,253.425485,0.649,12.157
+Dairy Corner,Sheep,Blue,Inner,M3,2012,0.39775,318.934085,0.77,12.84
+Dairy Corner,Sheep,Blue,Inner,M4,2376,0.34001,236.85466,0.658,13.343
+Dairy Corner,Sheep,Blue,Inner,M5,2852,0.28312,359.587,0.74,14.268
